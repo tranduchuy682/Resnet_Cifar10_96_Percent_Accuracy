@@ -141,3 +141,4 @@ cm = confusion_matrix(y_test, predictions)
 cm = pd.DataFrame(cm, 
                   index = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'], 
                   columns = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'])
+print(cm)
