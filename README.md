@@ -12,7 +12,7 @@
 # Dataset
 - Cifar10
 # Training
-- Optimizer: RMSprop, with weight decay: 2e-5, batch size: 64, Number of epoch: 60
+- Optimizer: RMSprop, with LR: 2e-5, Number of epoch: 60
 - Training with batch size: 64
 - Data augmentation:
 ```
