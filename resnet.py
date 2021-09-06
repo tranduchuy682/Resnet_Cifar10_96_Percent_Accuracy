@@ -45,7 +45,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 width_shift = 3/32
 height_shift = 3/32
 flip = True
-EPOCHS = 50
+EPOCHS = 60
 
 datagen = ImageDataGenerator(
     horizontal_flip=flip,
